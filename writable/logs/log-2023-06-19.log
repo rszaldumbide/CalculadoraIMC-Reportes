@@ -1,0 +1,13 @@
+INFO - 2023-06-19 03:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-19 03:05:22 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\reportes.php on line 97.
+ 1 APPPATH\Views\reportes.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Views\\reportes.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reportes.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('reportes', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('reportes')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->reporte()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-19 03:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
