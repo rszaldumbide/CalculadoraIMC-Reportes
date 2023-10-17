@@ -1,3 +1,5 @@
+Las vistas de las tablas funcionan con phpmyadmin, importar el archivo sql
+
 # CodeIgniter 4 Framework
 
 ## What is CodeIgniter?
